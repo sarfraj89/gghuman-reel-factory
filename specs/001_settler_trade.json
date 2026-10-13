@@ -1,0 +1,16 @@
+{
+  "id": "001_settler_trade",
+  "game": "settler_rush",
+  "opponent": "Claude",
+  "hook": "I asked Claude for a fair trade.",
+  "hook_highlight": "Claude",
+  "you_line": "Wood for wheat? I just need one road.",
+  "ai_said": "Of course! Always happy to help a neighbor.",
+  "ai_thought": "Accept. Their road ends at my port. Then the robber goes on their 8.",
+  "twist_label": "TWO TURNS LATER",
+  "twist": "It robbed my 8.",
+  "cta": ["It trades.", "It smiles.", "Can you win?"],
+  "caption": "Never trust a friendly trade from a frontier model. Play Settler Rush against Claude, GPT, Gemini and more at gghuman.ai",
+  "hashtags": ["#catan", "#boardgames", "#ai", "#claude", "#settlerrush", "#gghuman"],
+  "scene": {"target_number": 8, "loss": "-2 WHEAT", "seed": 7}
+}

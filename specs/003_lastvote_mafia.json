@@ -1,0 +1,21 @@
+{
+  "id": "003_lastvote_mafia",
+  "game": "last_vote",
+  "opponent": "Gemini",
+  "hook": "Gemini swore it was on my side.",
+  "hook_highlight": "Gemini",
+  "you_line": "Vote with me. Grok is the mafia.",
+  "ai_said": "Agreed. I trust you completely.",
+  "ai_thought": "They are one vote from finding me. Flip the table onto them.",
+  "twist_label": "ROLE REVEAL",
+  "twist": "Gemini was the mafia.",
+  "cta": ["It plots.", "It votes.", "Can you win?"],
+  "caption": "Gemini promised to vote with me. Gemini was the mafia. Play Last Vote, a mafia-style game against frontier AI, at gghuman.ai",
+  "hashtags": ["#mafia", "#werewolf", "#bloodontheclocktower", "#ai", "#gemini", "#gghuman"],
+  "scene": {
+    "seats": ["YOU", "Gemini", "Claude", "Grok", "Kimi"],
+    "accused": "Grok",
+    "role_reveal": "MAFIA",
+    "day": 3
+  }
+}

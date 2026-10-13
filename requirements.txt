@@ -1,0 +1,5 @@
+pillow>=10
+numpy>=1.24
+anthropic>=0.40  # only for ideate/factory
+piper-tts>=1.3  # local free TTS fallback for storyboard formats (voices in assets/voices/)
+gradio_client>=1.0  # free image-to-video via Hugging Face Spaces

@@ -1,0 +1,21 @@
+{
+  "id": "002_poker_bluff",
+  "game": "poker",
+  "opponent": "GPT",
+  "hook": "GPT shoved all-in on the river.",
+  "hook_highlight": "all-in",
+  "you_line": "You really have the flush?",
+  "ai_said": "I never bluff. Check my history.",
+  "ai_thought": "Seven-deuce. They fold to big river bets 70% of the time.",
+  "twist_label": "SHOWDOWN",
+  "twist": "I folded. It had 7-2.",
+  "cta": ["It bluffs.", "It lies.", "Can you call?"],
+  "caption": "The AI said it never bluffs. It had 7-2 offsuit. Play no-limit hold'em against frontier AI at gghuman.ai",
+  "hashtags": ["#poker", "#texasholdem", "#ai", "#chatgpt", "#bluff", "#gghuman"],
+  "scene": {
+    "board": ["K♥", "Q♥", "9♣", "4♥", "2♠"],
+    "you_hand": ["K♠", "J♦"],
+    "ai_hand": ["7♠", "2♦"],
+    "pot": "4,800"
+  }
+}

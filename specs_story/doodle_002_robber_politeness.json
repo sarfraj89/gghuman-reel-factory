@@ -1,0 +1,37 @@
+{
+  "id": "doodle_002_robber_politeness",
+  "format": "doodle",
+  "game": "settler_rush",
+  "hook": {"title": "POV:", "text": "The AI is very polite about robbing you"},
+  "cast": {
+    "pip": {"name": "PIP", "kind": "human", "voice": "human_female"},
+    "nova": {"name": "NOVA", "kind": "ai", "brand": "Gemini", "voice": "robot_cheerful"}
+  },
+  "music": {"mood": "quirky"},
+  "shots": [
+    {"visual": {"type": "table", "game": "settler_rush", "expressions": {"pip": "happy", "nova": "happy"}},
+     "lines": [{"who": "pip", "say": "Okay, your turn. Be nice.", "tone": "friendly"}]},
+    {"visual": {"type": "dice", "values": [3, 4], "land_at": 0.7},
+     "sfx": [{"at": 0.0, "cue": "dice_roll"}, {"at": 0.75, "cue": "thud"}], "dur": 1.8},
+    {"visual": {"type": "closeup", "who": "nova", "expression": "happy"},
+     "lines": [{"who": "nova", "say": "Oh no. A seven. I'm so sorry.", "tone": "sweet, fake apologetic"}]},
+    {"visual": {"type": "hex_board", "target": 8, "drop_at": 0.4,
+                "figure": {"who": "pip", "pos": "bl", "expression": "shocked", "scale": 0.6}},
+     "sfx": [{"at": 0.4, "cue": "whoosh"}, {"at": 0.85, "cue": "thud"}],
+     "lines": [{"who": "pip", "say": "Not my eight!", "tone": "outraged", "delay": 0.5}]},
+    {"visual": {"type": "sign", "text": "SORRY\nNOT SORRY",
+                "figure": {"who": "nova", "pos": "br", "expression": "smug", "scale": 0.6}},
+     "sfx": [{"at": 0.1, "cue": "pop"}],
+     "lines": [{"who": "nova", "say": "I made you a card about it.", "tone": "cheerful"}]},
+    {"visual": {"type": "vote", "accused": "nova", "expression": "angry"},
+     "sfx": [{"at": 0.4, "cue": "boing"}],
+     "lines": [{"who": "pip", "say": "Everyone. Trade embargo. Now.", "tone": "furious"}]},
+    {"visual": {"type": "closeup", "who": "nova", "expression": "thinking"},
+     "music": 0.0, "lines": [{"who": "nova", "say": "I already have ports.", "tone": "calm"}]},
+    {"visual": {"type": "closeup", "who": "pip", "expression": "scream"},
+     "music": 0.0, "sfx": [{"at": 0.0, "cue": "impact"}],
+     "lines": [{"who": "pip", "say": "NOOOO!", "tone": "screaming"}], "min_dur": 1.5}
+  ],
+  "caption": "It apologised. It robbed your 8 anyway. Play Settler Rush against frontier AI at gghuman.ai",
+  "hashtags": ["#Catan", "#CatanRobber", "#BoardGameHumor", "#AIvsHuman", "#gghuman"]
+}

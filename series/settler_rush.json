@@ -1,0 +1,23 @@
+{
+  "name": "Settler Rush",
+  "tagline": "Will humans or AI colonize Catan first?",
+  "cta": "Play Catan vs leading AI at",
+  "style": "photorealistic cinematic film still, epic historical-fantasy realism, warm golden-hour sunlight, rich teal-and-amber color grade, volumetric light, shallow depth of field, highly detailed, set on a Catan-inspired island of hexagonal terrain patches: golden wheat fields, dense pine forests, rocky grey mountains, green sheep pastures, red clay brick hills, turquoise sea",
+  "factions": {
+    "red_tribe": {"label": "Red Tribe", "color": "#E8705F", "font": "serif",
+                  "look": "medieval human settlers in worn red-brown linen tunics and leather belts, rugged faces, red banners with a golden lion crest"},
+    "openai": {"label": "5.6 Sol", "color": "#45E3D3", "font": "tech",
+               "look": "sleek matte-black armored humanoid robots with a glowing white interlocking-knot emblem on the chest and teal accent lights"},
+    "anthropic": {"label": "Anthropic", "color": "#EE9D74", "font": "tech",
+                  "look": "tall robots in hooded dark-brown cloaks over cream-white armor plates painted with an orange starburst emblem, glowing amber visor, orange starburst banners"},
+    "gemini": {"label": "Gemini", "color": "#7FA8FF", "font": "tech",
+               "look": "polished blue-silver humanoid robots with a glowing four-point star emblem, sapphire light strips"},
+    "deepseek": {"label": "DeepSeek", "color": "#6F86FF", "font": "tech",
+                 "look": "deep-indigo armored robots with a whale emblem, cold blue lights"},
+    "narrator": {"label": "", "color": "#F3E7D3", "font": "serif"}
+  },
+  "episodes": [
+    {"ep": 1, "title": "Rushing to Settle Catan", "summary": "Red Tribe lands and finishes the first settlement; OpenAI 5.6 Sol, Anthropic and an unnamed gold AI land with boats and build a settlement tower in seconds.", "score": {"red_tribe": 1, "openai": 1, "anthropic": 0}},
+    {"ep": 3, "title": "Largest Army", "summary": "Boxed in by a road block, Anthropic pivots to development cards, plays three knights, robs Red Tribe of wheat, ore and sheep and claims Largest Army.", "score": {"red_tribe": 6, "openai": 5, "anthropic": 7}}
+  ]
+}

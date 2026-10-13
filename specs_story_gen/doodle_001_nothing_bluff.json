@@ -1,0 +1,257 @@
+{
+  "id": "doodle_001_nothing_bluff",
+  "format": "doodle",
+  "game": "poker",
+  "hook": {
+    "title": "POV:",
+    "text": "The AI that bluffs with pure air"
+  },
+  "cast": {
+    "wren": {
+      "name": "WREN",
+      "kind": "human",
+      "voice": "human_male"
+    },
+    "chip": {
+      "name": "CHIP",
+      "kind": "ai",
+      "brand": "GPT",
+      "voice": "robot_calm"
+    }
+  },
+  "music": {
+    "mood": "quirky"
+  },
+  "premise": "A human folds pocket kings to an AI river shove, then rants with escalating absurdity while the AI calmly answers 'Nothing.' until the reveal shows seven-deuce air.",
+  "shots": [
+    {
+      "visual": {
+        "type": "table",
+        "game": "poker",
+        "board": [
+          "9♠",
+          "4♦",
+          "J♣",
+          "3♥",
+          "8♦"
+        ],
+        "you_hand": [
+          "K♠",
+          "K♦"
+        ],
+        "ai_hand": [
+          "?",
+          "?"
+        ],
+        "expressions": {
+          "wren": "annoyed",
+          "chip": "neutral"
+        }
+      },
+      "sfx": [
+        {
+          "at": 0.1,
+          "cue": "chips"
+        }
+      ],
+      "lines": [
+        {
+          "who": "wren",
+          "say": "I folded kings. Okay. What did you have?",
+          "tone": "irritated"
+        }
+      ]
+    },
+    {
+      "visual": {
+        "type": "closeup",
+        "who": "chip",
+        "expression": "neutral"
+      },
+      "lines": [
+        {
+          "who": "chip",
+          "say": "Nothing.",
+          "tone": "calm, flat"
+        }
+      ],
+      "min_dur": 1.5
+    },
+    {
+      "visual": {
+        "type": "sign",
+        "text": "MY KINGS WEPT IN THE MUCK"
+      },
+      "sfx": [
+        {
+          "at": 0.1,
+          "cue": "pop"
+        }
+      ],
+      "lines": [
+        {
+          "who": "wren",
+          "say": "Nothing?! My kings wept in the muck!",
+          "tone": "outraged"
+        }
+      ]
+    },
+    {
+      "visual": {
+        "type": "closeup",
+        "who": "chip",
+        "expression": "neutral"
+      },
+      "lines": [
+        {
+          "who": "chip",
+          "say": "Nothing.",
+          "tone": "calm, flat"
+        }
+      ],
+      "min_dur": 1.5
+    },
+    {
+      "visual": {
+        "type": "sun_earth",
+        "on_earth": "wren",
+        "expression": "angry"
+      },
+      "ambience": "wind",
+      "lines": [
+        {
+          "who": "wren",
+          "say": "I'm telling the dealer, my mom, and the sun!",
+          "tone": "ranting"
+        }
+      ]
+    },
+    {
+      "visual": {
+        "type": "closeup",
+        "who": "chip",
+        "expression": "smug"
+      },
+      "lines": [
+        {
+          "who": "chip",
+          "say": "Nothing.",
+          "tone": "calm, pleased"
+        }
+      ],
+      "min_dur": 1.5
+    },
+    {
+      "visual": {
+        "type": "card_reveal",
+        "board": [
+          "9♠",
+          "4♦",
+          "J♣",
+          "3♥",
+          "8♦"
+        ],
+        "hidden": [
+          "7♣",
+          "2♦"
+        ],
+        "flip_at": [
+          0.5,
+          1.3
+        ],
+        "highlight": [
+          "7♣",
+          "2♦"
+        ],
+        "highlight_at": 2.0
+      },
+      "music": 0.0,
+      "dur": 3.2,
+      "sfx": [
+        {
+          "at": 0.5,
+          "cue": "card_flip"
+        },
+        {
+          "at": 1.3,
+          "cue": "card_flip"
+        },
+        {
+          "at": 2.0,
+          "cue": "sting"
+        }
+      ]
+    },
+    {
+      "visual": {
+        "type": "closeup",
+        "who": "wren",
+        "expression": "shocked",
+        "hand": [
+          "K♠",
+          "K♦"
+        ],
+        "zoom": [
+          1.0,
+          1.2
+        ]
+      },
+      "music": 0.0,
+      "dur": 1.8,
+      "sfx": [
+        {
+          "at": 0.2,
+          "cue": "crickets",
+          "dur": 1.5,
+          "gain": 0.6
+        }
+      ]
+    },
+    {
+      "visual": {
+        "type": "closeup",
+        "who": "wren",
+        "expression": "scream"
+      },
+      "music": 0.0,
+      "sfx": [
+        {
+          "at": 0.0,
+          "cue": "impact"
+        }
+      ],
+      "lines": [
+        {
+          "who": "wren",
+          "say": "SEVEN-DEUCE?! AAAAAH!",
+          "show": "AAAAAH!",
+          "tone": "screaming"
+        }
+      ],
+      "min_dur": 1.6
+    }
+  ],
+  "caption": "He folded pocket kings. The AI had seven-deuce and one calm word. Think you can read a bluff? Play poker vs frontier AI at gghuman.ai",
+  "hashtags": [
+    "#PokerBluff",
+    "#PocketKings",
+    "#PokerHumor",
+    "#TexasHoldemMeme",
+    "#gghuman"
+  ],
+  "_judge": {
+    "hook": 4,
+    "comedy_or_drama": 4,
+    "game_accuracy": 5,
+    "clarity": 4,
+    "brand_fit": 4,
+    "note": "The rule-of-three 'Nothing.' running gag escalates well. Wren's rant gets more absurd each time (the sun and earth shot), and the 7-2 reveal, crickets and scream land the payoff. The poker is legal and plausible: KK folds to a river shove on a dry board, and 7♣2♦ has no pair, straight or flush, so it really is air. The one nitpick is that the AI wouldn't have to show its hand. The hook title 'POV:' plus the 'bluffs with pure air' line is decent but a bit abstract, and the opening table shot is static. A punchier first frame, such as the shove or Wren's folded kings, would stop the scroll faster. The CTA in the caption ('Think you can read a bluff?') fits the brand, and the deadpan CHIP gives the AI a fun personality."
+  },
+  "_topic": [
+    "poker",
+    "bluffs with total air and admits it calmly",
+    "escalation x3: the human's complaint gets more absurd each beat, the AI only says one word, then a reveal",
+    "GPT"
+  ],
+  "_attempts": 1
+}

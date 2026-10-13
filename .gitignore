@@ -1,0 +1,39 @@
+# --- secrets (API keys) ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- generated media cache (voices, images, video clips); rebuilt on demand ---
+cache/
+
+# --- local Piper TTS voice models (63-120 MB each; GitHub rejects files > 100 MB) ---
+# download: see "Providers" in README.md (rhasspy/piper-voices on Hugging Face)
+assets/voices/*.onnx
+assets/voices/*.onnx.json
+
+# --- render outputs (final picks live in generated_video/) ---
+out/
+out_*/
+*.wav
+*.preview.mp4
+*.sheet.png
+*.qc.json
+*.timeline.json
+manifest.csv
+
+# --- rejected LLM drafts ---
+specs_story_gen/_rejected/
+
+# --- editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

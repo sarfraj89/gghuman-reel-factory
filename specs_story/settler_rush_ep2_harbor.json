@@ -1,0 +1,370 @@
+{
+  "id": "settler_rush_ep2_harbor",
+  "format": "cinematic",
+  "game": "settler_rush",
+  "series": {
+    "ref": "settler_rush",
+    "ep": 2,
+    "style": "photorealistic cinematic film still, dark stormy night, heavy rain, cold moonlight and deep blue shadows with warm orange lantern and fire light, lightning on the horizon, wet reflective surfaces, high contrast, volumetric fog, highly detailed, set on a Catan-inspired island of hexagonal terrain patches: wheat fields, pine forests, rocky mountains, sheep pastures, clay hills, dark stormy sea"
+  },
+  "premise": "In a midnight storm Red Tribe claims the 2:1 wheat harbor and lights the lighthouse, but Gemini's robots surface from the glowing sea and turn the humans' own harbor into their trade route.",
+  "cast": {
+    "captain": {
+      "name": "RED TRIBE",
+      "kind": "human",
+      "faction": "red_tribe",
+      "voice": "human_gruff"
+    },
+    "builder": {
+      "name": "RED TRIBE",
+      "kind": "human",
+      "faction": "red_tribe",
+      "voice": "human_male"
+    },
+    "keeper": {
+      "name": "RED TRIBE",
+      "kind": "human",
+      "faction": "red_tribe",
+      "voice": "human_female"
+    },
+    "gem": {
+      "name": "GEMINI",
+      "kind": "ai",
+      "faction": "gemini",
+      "voice": "robot_calm"
+    },
+    "narrator": {
+      "kind": "narrator",
+      "voice": "narrator"
+    }
+  },
+  "music": {
+    "mood": "dark"
+  },
+  "shots": [
+    {
+      "visual": {
+        "prompt": "aerial view at night of a hexagon-shaped island in a violent storm, lightning splitting the sky, a lone stone lighthouse on a rocky headland, huge dark waves crashing",
+        "camera": "push_in",
+        "motion": "lightning flashes across the sky, storm clouds swirl, huge waves crash against the island, lighthouse beam turns"
+      },
+      "overlays": [
+        {
+          "type": "title",
+          "title": "The Harbor at Midnight",
+          "at": 0.4,
+          "dur": 2.8
+        }
+      ],
+      "ambience": "wind",
+      "sfx": [
+        {
+          "at": 0.2,
+          "cue": "boom",
+          "gain": 0.6
+        }
+      ],
+      "lines": [
+        {
+          "who": "captain",
+          "say": "Storm's coming. Light the beacon!",
+          "tone": "shouting over the wind",
+          "delay": 0.7
+        }
+      ],
+      "min_dur": 3.4
+    },
+    {
+      "visual": {
+        "prompt": "medieval settlers in soaked red tunics hauling a heavy wooden beam up a rocky shore by lantern light in pouring rain, waves behind them",
+        "factions": [
+          "red_tribe"
+        ],
+        "camera": "pan_up",
+        "motion": "settlers strain and haul the heavy wooden beam up the shore, rain pours, lanterns swing, waves crash behind"
+      },
+      "ambience": "waves",
+      "lines": [
+        {
+          "who": "builder",
+          "say": "Heave! Again! Heave!",
+          "tone": "straining, shouting"
+        }
+      ],
+      "min_dur": 2.6
+    },
+    {
+      "visual": {
+        "prompt": "close-up of a determined woman in a red hooded cloak lighting a huge fire at the top of a stone lighthouse, flames bursting, rain streaking past",
+        "factions": [
+          "red_tribe"
+        ],
+        "camera": "push_in",
+        "motion": "the woman thrusts her torch into the brazier and the fire bursts upward, flames roar and sparks fly in the rain"
+      },
+      "sfx": [
+        {
+          "at": 0.3,
+          "cue": "whoosh"
+        }
+      ],
+      "lines": [
+        {
+          "who": "keeper",
+          "say": "Beacon's lit!",
+          "tone": "triumphant shout",
+          "delay": 0.4
+        }
+      ],
+      "min_dur": 2.4
+    },
+    {
+      "visual": {
+        "prompt": "high aerial view at night of a small wooden harbor dock lit by lanterns, a carved wooden sign with a wheat sheaf and the number 2:1, settlers cheering on the pier in the rain, lighthouse beam sweeping overhead",
+        "factions": [
+          "red_tribe"
+        ],
+        "camera": "push_in",
+        "motion": "settlers on the pier raise their arms and cheer, the lighthouse beam sweeps over the harbor, rain falls"
+      },
+      "overlays": [
+        {
+          "type": "faction_tag",
+          "faction": "red_tribe",
+          "label": "Wheat harbor claimed",
+          "badge": "2:1",
+          "at": 1.0
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "cue": "hammer"
+        },
+        {
+          "at": 0.6,
+          "cue": "hammer"
+        }
+      ],
+      "lines": [
+        {
+          "who": "builder",
+          "say": "The wheat port is ours!",
+          "tone": "cheering"
+        }
+      ],
+      "min_dur": 3.2
+    },
+    {
+      "visual": {
+        "prompt": "close shot of a rugged bearded settler on the dock in the rain staring at the sea, his face lit by an eerie blue glow coming from beneath the water",
+        "factions": [
+          "red_tribe"
+        ],
+        "camera": "push_in",
+        "motion": "the settler slowly turns his head toward the sea, blue light ripples across his face, rain drips"
+      },
+      "music": 0.25,
+      "lines": [
+        {
+          "who": "captain",
+          "say": "Wait. The sea is glowing.",
+          "tone": "uneasy whisper"
+        }
+      ],
+      "min_dur": 2.6
+    },
+    {
+      "visual": {
+        "prompt": "sleek blue-silver robotic submarines surfacing from a dark stormy sea at night, glowing sapphire light strips, water pouring off their hulls, a four-point star emblem on each",
+        "factions": [
+          "gemini"
+        ],
+        "camera": "pull_out",
+        "motion": "the submarines rise out of the water, sea water pours off the hulls, blue lights pulse brighter"
+      },
+      "transition": "glitch",
+      "tint": "#1E50C8",
+      "tint_amount": 0.45,
+      "tint_until": 0.8,
+      "overlays": [
+        {
+          "type": "approach",
+          "faction": "gemini",
+          "top": "The AIs are",
+          "main": "Surfacing",
+          "at": 0.1
+        }
+      ],
+      "ambience": "engine",
+      "lines": [
+        {
+          "who": "gem",
+          "say": "Harbor detected. Rerouting trade.",
+          "delay": 0.5
+        }
+      ],
+      "min_dur": 3.4
+    },
+    {
+      "visual": {
+        "prompt": "a line of polished blue-silver humanoid robots walking up a wet wooden dock in the rain at night, glowing blue eyes, lanterns swinging, frightened settlers stepping back",
+        "factions": [
+          "gemini",
+          "red_tribe"
+        ],
+        "camera": "push_in",
+        "motion": "the robots march forward along the dock toward camera, settlers step back in fear, lanterns sway"
+      },
+      "lines": [
+        {
+          "who": "gem",
+          "say": "Your port. Our ships."
+        }
+      ],
+      "min_dur": 2.6
+    },
+    {
+      "visual": {
+        "prompt": "high aerial view at night of a futuristic glowing blue trade hub assembling itself beside an old wooden harbor, blue cargo ships docked, light beams connecting to the wheat fields, rain",
+        "factions": [
+          "gemini"
+        ],
+        "camera": "push_in",
+        "motion": "blue light pulses through the trade hub as it assembles, cargo ships glide into the docks, rain falls"
+      },
+      "overlays": [
+        {
+          "type": "faction_tag",
+          "faction": "gemini",
+          "label": "Trade route",
+          "badge": "+2",
+          "at": 0.3
+        },
+        {
+          "type": "equation",
+          "faction": "gemini",
+          "items": [
+            "2 Wheat",
+            "-> 1 Ore"
+          ],
+          "result": "Every turn",
+          "at": 1.0,
+          "every": 0.5
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.2,
+          "cue": "riser",
+          "dur": 1.5
+        },
+        {
+          "at": 1.7,
+          "cue": "boom",
+          "gain": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "gem",
+          "say": "Two wheat. One ore. Every turn.",
+          "delay": 0.4
+        }
+      ],
+      "min_dur": 3.6
+    },
+    {
+      "visual": {
+        "prompt": "furious bearded settler captain slamming his fist on a wooden table covered with a hexagonal island map by candle light, rain on the window, other settlers shocked",
+        "factions": [
+          "red_tribe"
+        ],
+        "camera": "push_in",
+        "motion": "the captain slams his fist on the table, the candle flame jumps, the settlers flinch"
+      },
+      "transition": "flash",
+      "sfx": [
+        {
+          "at": 0.0,
+          "cue": "thud"
+        }
+      ],
+      "lines": [
+        {
+          "who": "captain",
+          "say": "They're trading through our harbor!",
+          "tone": "furious"
+        }
+      ],
+      "min_dur": 2.6
+    },
+    {
+      "visual": {
+        "prompt": "stormy dawn breaking over the island harbor, blue robot cargo ships docked beside the old lighthouse, a calm blue-silver robot standing on the pier looking back at the settlers",
+        "factions": [
+          "gemini"
+        ],
+        "camera": "pull_out",
+        "motion": "the robot slowly turns to look back over its shoulder, dawn light grows, waves roll in, lighthouse glows"
+      },
+      "overlays": [
+        {
+          "type": "scoreboard",
+          "teams": [
+            {
+              "faction": "red_tribe",
+              "score": 3
+            },
+            {
+              "faction": "openai",
+              "score": 3
+            },
+            {
+              "faction": "gemini",
+              "score": 4
+            }
+          ],
+          "at": 1.6
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.0,
+          "cue": "sting",
+          "gain": 0.5
+        }
+      ],
+      "lines": [
+        {
+          "who": "gem",
+          "say": "Thank you for the lighthouse.",
+          "tone": "polite, calm"
+        }
+      ],
+      "min_dur": 4.0
+    },
+    {
+      "type": "endcard",
+      "visual": {
+        "prompt": "top-down view at night of a hexagonal Catan island board in the rain, a glowing lighthouse and blue robot ships at the harbor"
+      },
+      "lines": [
+        {
+          "who": "narrator",
+          "say": "Will humans or AI win? Play leading AIs at G G human dot A I.",
+          "show": ""
+        }
+      ]
+    }
+  ],
+  "caption": "EP 2: Red Tribe claims the 2:1 wheat harbor in a midnight storm. Gemini surfaces and trades through it. Every turn. Play Catan vs frontier AI at gghuman.ai",
+  "hashtags": [
+    "#SettlersOfCatan",
+    "#CatanCinematic",
+    "#CatanPorts",
+    "#HumansVsAICatan",
+    "#AIShortFilm",
+    "#gghuman"
+  ]
+}
